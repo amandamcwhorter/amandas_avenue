@@ -1,0 +1,18 @@
+// Place all the styles related to the Homes controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+ .sidebar li {
+   border: 1px solid grey;
+ }
+
+.sidebar {
+  padding-top: 20px;
+}
+
+.about-img {
+  max-width: 200px;
+}
+
+.edu {
+  list-style-type: none;
+}

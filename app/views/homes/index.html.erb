@@ -1,0 +1,85 @@
+<head>
+  <%= javascript_include_tag "home" %>
+</head>
+<body>
+  <div class="sidebar col-sm-2">
+    <ul class="nav nav-sidebar">
+      <li><a class="active about-btn">About me</a></li>
+      <li><a class="resume-btn">Resume</a></li>
+      <li><a class="projects-btn">Projects</a></li>
+    </ul>
+  </div>
+  <div class="container-fluid about-me col-sm-10">
+    <h1>About Me</h1>
+    <div class="row">
+      <div class="col-md-3">
+        <div class="row">
+          <%= image_tag "about_me.JPG", :class => "thumbnail about-img", :style => "float: left;" %>
+        </div>
+        <div class="row">
+          <%= image_tag "about-2.jpg", :class => "thumbnail about-img", :style => "float: left;" %>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <p>I grew up in a small town in Southern California. I was the typical high school student. I played
+          sports, was in the marching band, graduated with honors, and had no idea what I wanted to be when I
+          grew up. I knew I wanted to get some kind of engineering degree, but I didn't know which one. I liked
+          technology so why not Computer Engineering. I was accepted into the UCSB Engineering program right out
+          of high school. I moved in with my aunt in Santa Barbara and started school. I had no idea what was in
+          store.
+        </p>
+        <p>In my first semester at UCSB, I remember a professor in my technical writing class telling me that
+          that 3 out of 4 people in the class will change majors by the end of their degree. I remember thinking
+          to my self that I was going to be the one person who remained a CE major. After about of year of lower
+          division CE classes it quickly became apparent to me that this is not what I was cut out for. I really
+          liked my programming classes but circuits were too much. So after some hardships I decided to transfer
+          out of UCSB.
+        <p>I moved to San Francisco in 2011 to pursue my degree in computer science at San Francisco State
+          University. Here I am, three years later. I am preparing to graduate on May 24th. I am excited to start
+          my career as a Software Engineer and can not wait to see what comes next.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid resume col-sm-10">
+    <h3>Summary</h3>
+    <li>Determined, self-motivated, ambitious programmer with a year and a half of experience in web development and QA.</li>
+    <li>Excellent inter-personal, teamwork, and communication skills.</li>
+    <li>A strong foundation in object oriented programming and concepts.</li>
+    <li>Enthusiasm for learning and taking on leadership roles.</li>
+    <hr>
+    <h4>Education</h4>
+    <li class="edu">San Francisco State University</li>
+    <li class="edu">Graduation date: May 24, 2014</li>
+    <li class="edu">Major: Computer Science</li>
+    <hr>
+    <h4>Work Experience</h4>
+    <li>Manilla - Software Engineering and QA Intern</li>
+    <li>SFSU Communications Dept. - Student Web Assistant</li>
+    <li>Epsilon Systems Inc. - Data Entry</li>
+    <hr>
+    <h4>Qualification and Other Experience</h4>
+    <li>Languages: C, C++, Java, Ruby, PHP, JavaScript, HTML, CSS</li>
+    <li>frameworks: Ruby on Rails, BootStrap</li>
+    <li>Databases: MySQL, Postresql, SQL</li>
+    <li>Version Control: git, svn</li>
+    <li>Operating Systems: Linux, MacOX, Windows</li>
+    <li>Other: Unix, UML, Microsoft Office, Microsoft Project, SAP ERP</li>
+  </div>
+
+  <div class="container-fluid projects col-sm-10">
+    <h3>Check out my projects on Github</h3>
+    <a href="https://github.com/amandamcwhorter">My Github</a>
+    <hr>
+    <h3>Rails Project for my Intenet Applicatons class at SF State</h3>
+    <p>Aura is a scheduling app that allows businesses like hair salons and spas book appointments.
+       The app still needs a lot of front-end work, but it's back-end is fully functioning. Check out the app at
+    </p>
+    <a href="http://teamaura.herokuapp.com/">Aura</a>
+    <hr>
+    <h3>PHP project for my Software Engineering class at SF State</h3>
+    <p>Luckyard is an online classified app similar to Craig's List. Check it out at</p>
+    <a href="http://sfsuswe.com/~s14g09">Luckyard</a>
+  </div>
+</body>
