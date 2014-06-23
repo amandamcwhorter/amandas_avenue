@@ -5,8 +5,19 @@
    border: 1px solid grey;
  }
 
+//.sidebar {
+//  padding-top: 20px;
+//}
+
 .sidebar {
-  padding-top: 20px;
+  margin-top: 20px;
+  border: 0 black solid;
+  box-shadow: 6px 6px 20px #eee;
+}
+
+.sidebar li {
+  border:0 #f2f2f2 solid;
+  border-width: 1px;
 }
 
 .about-img {
@@ -15,4 +26,9 @@
 
 .edu {
   list-style-type: none;
+}
+
+.project-link {
+  font-size: 1.4em;
+  color: blue !important;
 }
